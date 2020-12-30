@@ -1,0 +1,24 @@
+.posts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-self: flex-start;
+padding-top: 3rem;
+}
+.title{
+  font-family: 'Audiowide Regular';
+  color: #444;
+  text-align: center;
+}
+.wrapper-items {
+  display: flex;
+  padding: 2.5rem;
+  justify-content: center;
+}
+.wrapper-items > * {
+  margin: 0 20px;
+}
+.wrapper-items div{
+    width:100%;
+    text-align: center;
+}
