@@ -1,11 +1,14 @@
 import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 import Blog from './container/Blog/Blog'
 
 const App = (props) => {
   return (
-    <div>
-      <Blog />
-    </div>
+    <Router>
+      <div>
+        <Blog />
+      </div>
+    </Router>
   )
 }
 

@@ -1,24 +1,33 @@
-.posts {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-self: flex-start;
-padding-top: 3rem;
+.blog ul {
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.title{
-  font-family: 'Audiowide Regular';
+.blog li {
+  margin: 20px;
+  display: inline-block;
+  font-size: 18.5px;  
+}
+.blog a {
+  text-decoration: none;
+  color: #9c27b0;  
+}
+.title {
+  font-family: "Audiowide Regular";
   color: #444;
   text-align: center;
 }
 .wrapper-items {
   display: flex;
   padding: 2.5rem;
-  justify-content: center;
+  justify-content: center;  
 }
 .wrapper-items > * {
   margin: 0 20px;
 }
-.wrapper-items div{
-    width:100%;
-    text-align: center;
+.wrapper-items>div {
+  width: 55%;
+  text-align: center;
 }

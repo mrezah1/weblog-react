@@ -1,6 +1,6 @@
 import React from 'react'
 import './Post.css'
-import FullPost from '../FullPost/FullPost'
+import FullPost from '../../container/Blog/FullPost/FullPost'
 
 const Post = (props) => {
     return (
